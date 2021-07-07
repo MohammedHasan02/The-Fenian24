@@ -7,7 +7,7 @@ h1{
 h2{
     font-size: 30px;
 }
-.orange-color{
+.food-review h2{
     color: #e7490a !important;
 }
 .headertext{
@@ -17,36 +17,47 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .resturant{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 100px;
 }
 .food-review img{
-    width: 80%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
 }
 .myself{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:url(images/shapes/7.png) ;
+    background-image:url(images/shapes/headback.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px 100px;
 }
 .link-tap{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange, tomato);
-    padding: 1opx 40px;
+    padding: 10px 40px;
     border-radius: 30px;
     font-weight: 700;
 }
-.gray-color{
+.receipe h2{
     color:gray;
 }
 .receipe{
     text-align: center;
+    padding-bottom:40px;
 }
 .receipe-item{
     display: flex;
